@@ -1,13 +1,11 @@
-package Lists;
+package Queues;
 
 public class Node {
-    Node next;
     int data;
+    Node next;
 
-    public Node(int data) {
+    public Node(int data){
         this.data = data;
-        next = null;
     }
-
 
 }
