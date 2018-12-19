@@ -1,4 +1,4 @@
-package Queues;
+package Stacks;
 
 public class Node {
     int data;
@@ -7,5 +7,6 @@ public class Node {
     public Node(int data){
         this.data = data;
     }
+
 
 }

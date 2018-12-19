@@ -1,16 +1,18 @@
-package Queues;
+package Stacks;
 
 public class main {
     public static void main(String[] args) {
-        Queue q1 = new Queue();
-        q1.add(23);
-        q1.add(54);
-        q1.add(22);
-        q1.add(78);
-        q1.add(34);
-        q1.add(555);
-        q1.add(65);
+        Stack s1 = new Stack();
+        s1.add(45);
+        s1.add(35);
+        System.out.println(s1.IsEmpty());
+        s1.print();
+        s1.add(78);
+        s1.add(563);
+        //s1.print();
 
-        q1.print();
+        s1.remove();
+        s1.print();
     }
+
 }
